@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{74DE5EC1-23B4-ACBB-4049-9C05279739CA}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_9;UNITY_4_6;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>E:/Programs/Unity4.6.9/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>E:/Programs/Unity4.6.9/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Camera\tk2dCamera.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Camera\tk2dCameraAnchor.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Camera\tk2dCameraUtil.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Fonts\tk2dFont.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Fonts\tk2dFontData.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Fonts\tk2dTextGeomGen.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Fonts\tk2dTextMesh.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Gui\tk2dButton.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Runtime\tk2dResource.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Runtime\tk2dSystem.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Runtime\tk2dUpdateManager.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dAnimatedSprite.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dBaseSprite.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dClippedSprite.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dPixelPerfectHelper.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dRuntimeSpriteCollection.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSlicedSprite.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSprite.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteAnimation.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteAnimator.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteAttachPoint.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteCollection.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteCollectionData.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteCollectionInterfaces.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteCollectionSize.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteFromTexture.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteGeomGen.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dStaticSpriteBatcher.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dTiledSprite.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dTileMap\Code\tk2dTileMap.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dTileMap\Code\tk2dTileMapBuilderUtil.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dTileMap\Code\tk2dTileMapChunks.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dTileMap\Code\tk2dTileMapColliderBuilder.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dTileMap\Code\tk2dTileMapData.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dTileMap\Code\tk2dTileMapMeshBuilder.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dTileMap_demo\Demo1\Scripts\tk2dTileMapDemoCoin.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dTileMap_demo\Demo1\Scripts\tk2dTileMapDemoFollowCam.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dTileMap_demo\Demo1\Scripts\tk2dTileMapDemoPlayer.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIBaseItemControl.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIDragItem.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIDropDownItem.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIDropDownMenu.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIHoverItem.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIMultiStateToggleButton.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIProgressBar.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIScrollableArea.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIScrollbar.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUISoundItem.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUITextInput.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIToggleButton.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIToggleButtonGroup.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIToggleControl.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUITweenItem.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIUpDownButton.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIUpDownHoverButton.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Core\tk2dUIAudioManager.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Core\tk2dUICamera.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Core\tk2dUIItem.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Core\tk2dUILayout.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Core\tk2dUILayoutContainer.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Core\tk2dUILayoutContainerSizer.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Core\tk2dUIManager.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Core\tk2dUIMask.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Core\tk2dUISpriteAnimator.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Core\tk2dUITime.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Core\tk2dUITouch.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI_demo\tk2dUIBaseDemoController.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI_demo\tk2dUIDemo2Controller.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI_demo\tk2dUIDemo3Controller.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI_demo\tk2dUIDemo5Controller.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI_demo\tk2dUIDemoController.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d_demo\tk2dDemoAnimController.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d_demo\tk2dDemoButtonController.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d_demo\tk2dDemoCameraController.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d_demo\tk2dDemoReloadController.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d_demo\tk2dDemoRuntimeSpriteController.cs" />
+     <Compile Include="Assets\_Custom\script\MobileController.cs" />
+     <Compile Include="Assets\_Custom\script\MobileInterface.cs" />
+     <Compile Include="Assets\_Custom\script\mobileMain.cs" />
+     <Compile Include="Assets\_Custom\script\mobileStart.cs" />
+     <Compile Include="Assets\_Custom\script\tk2dUI_DirectController.cs" />
+     <Compile Include="Assets\_Custom_Mobile\script\CanFire.cs" />
+     <Compile Include="Assets\_Custom_Mobile\script\Chain_zoom.cs" />
+     <Compile Include="Assets\_Custom_Mobile\script\DownFire.cs" />
+     <Compile Include="Assets\_Custom_Mobile\script\GunEff.cs" />
+     <Compile Include="Assets\_Custom_Mobile\script\Lingqu.cs" />
+     <Compile Include="Assets\_Custom_Mobile\script\Module_Achievement.cs" />
+     <Compile Include="Assets\_Custom_Mobile\script\Module_Rank.cs" />
+     <Compile Include="Assets\_Custom_Mobile\script\Module_Recharge.cs" />
+     <Compile Include="Assets\_Custom_Mobile\script\Module_Registration.cs" />
+     <Compile Include="Assets\_Custom_Mobile\script\Module_SceneSelect.cs" />
+     <Compile Include="Assets\_Custom_Mobile\script\Moudle_FileRead.cs" />
+     <Compile Include="Assets\_Custom_Mobile\script\Moudle_Help.cs" />
+     <Compile Include="Assets\_Custom_Mobile\script\Moudle_MainStart.cs" />
+     <Compile Include="Assets\_Custom_Mobile\script\Moudle_Setting.cs" />
+     <Compile Include="Assets\_Custom_Mobile\script\Moudle_light.cs" />
+     <Compile Include="Assets\_Custom_Mobile\script\Moudle_main.cs" />
+     <Compile Include="Assets\_Custom_Mobile\script\Moudle_scene.cs" />
+     <Compile Include="Assets\_Custom_Mobile\script\Move_UP.cs" />
+     <Compile Include="Assets\_Custom_Mobile\script\NameChange.cs" />
+     <Compile Include="Assets\_Custom_Mobile\script\UpFire.cs" />
+     <Compile Include="Assets\_Custom_Mobile\script\back_board.cs" />
+     <Compile Include="Assets\_Custom_Mobile\script\back_light.cs" />
+     <Compile Include="Assets\_Custom_Mobile\script\btn_move.cs" />
+     <Compile Include="Assets\_Custom_Mobile\script\chongzhi_select.cs" />
+     <Compile Include="Assets\_Custom_Mobile\script\coin_script.cs" />
+     <Compile Include="Assets\_Custom_Mobile\script\control_down.cs" />
+     <Compile Include="Assets\_Custom_Mobile\script\little_light1.cs" />
+     <Compile Include="Assets\_Custom_Mobile\script\network\GamePackages.cs" />
+     <Compile Include="Assets\_Custom_Mobile\script\network\Packager.cs" />
+     <Compile Include="Assets\_Custom_Mobile\script\network\WazClient.cs" />
+     <Compile Include="Assets\_Custom_Mobile\script\network\WazNetwork.cs" />
+     <Compile Include="Assets\_Custom_Mobile\script\network\epoll.cs" />
+     <Compile Include="Assets\_Custom_Mobile\script\pay\mmpay.cs" />
+     <Compile Include="Assets\_Custom_Mobile\script\pay\wiipay.cs" />
+     <Compile Include="Assets\_Custom_Mobile\script\shop.cs" />
+     <Compile Include="Assets\_Custom_Mobile\script\text_c.cs" />
+     <Compile Include="Assets\external\FpsShower\FpsShower.cs" />
+     <Compile Include="Assets\external\NemoFileIO\HotFileBinaryLowIO.cs" />
+     <Compile Include="Assets\external\NemoFileIO\HotFileDBFRAM_Updater.cs" />
+     <Compile Include="Assets\external\NemoFileIO\HotFileDBIO.cs" />
+     <Compile Include="Assets\external\NemoFileIO\HotFileDBIOReleaser.cs" />
+     <Compile Include="Assets\external\NemoFileIO\HotFileDbFRAMIO.cs" />
+     <Compile Include="Assets\external\NemoFileIO\PersistentData.cs" />
+     <Compile Include="Assets\external\NemoFileIO\PersistentDataCoroWriter.cs" />
+     <Compile Include="Assets\external\NemoPoolGOs\IPoolObj.cs" />
+     <Compile Include="Assets\external\NemoPoolGOs\Pool_GameObj.cs" />
+     <Compile Include="Assets\external\NemoPoolGOs\Pool_GameObj_GC_Interval.cs" />
+     <Compile Include="Assets\external\NemoPoolGOs\RecycleDelay.cs" />
+     <Compile Include="Assets\external\NemoSerial\ArcadeIO_Feng.cs" />
+     <Compile Include="Assets\external\NemoSerial\ArcadeIO_InfraedRayZhang.cs" />
+     <Compile Include="Assets\external\NemoSerial\INemoControlIO.cs" />
+     <Compile Include="Assets\external\NemoSerial\NemoSerial.cs" />
+     <Compile Include="Assets\external\NemoSerial\NemoUsbHid.cs" />
+     <Compile Include="Assets\external\NemoSerial\NemoUsbHid_HardScan.cs" />
+     <Compile Include="Assets\external\NemoSerial\NemoUsbHid_Plugin_ClearShakeDel.cs" />
+     <Compile Include="Assets\external\NemoSerial\Tester\ArcadeSinglePlayerTester.cs" />
+     <Compile Include="Assets\external\NemoSerial\Tester\InfraedRayTest.cs" />
+     <Compile Include="Assets\external\NemoSerial\Tester\Tester_NemoUsbHidHardScan.cs" />
+     <Compile Include="Assets\external\NemoSerial\Tester\Tester_UsbIO_Feng.cs" />
+     <Compile Include="Assets\external\NemoSerial\Tool\NemoMCUEditor.cs" />
+     <Compile Include="Assets\external\iTween\Plugins\iTween.cs" />
+     <Compile Include="Assets\external\iTween\Sample\MoveSample.cs" />
+     <Compile Include="Assets\external\iTween\Sample\RotateSample.cs" />
+     <Compile Include="Assets\external\iTween\Sample\SampleInfo.cs" />
+     <Compile Include="Assets\external\win32Api\Win32Usb.cs" />
+     <Compile Include="Assets\external\win32Api\WndMsgHook.cs" />
+     <Compile Include="Assets\external\win32Api\win32Api.cs" />
+     <Compile Include="Assets\modules\BulletLizi\Module_BulletLizi.cs" />
+     <Compile Include="Assets\modules\BulletSplit\BulletEx_Splitor.cs" />
+     <Compile Include="Assets\modules\BulletSplit\Module_BulletSplit.cs" />
+     <Compile Include="Assets\modules\FishTypeBomb2\Module_FishTypeBomb2.cs" />
+     <Compile Include="Assets\modules\FishTypeBombEx\Module_FishTypeBombEx.cs" />
+     <Compile Include="Assets\plugin_pay_mm\Sample\sample_pay_mm.cs" />
+     <Compile Include="Assets\prefab\additiveFunction\BulletScoreRecover\script\BulletScoreRecover.cs" />
+     <Compile Include="Assets\prefab\additiveFunction\BulletScoreRecover\script\EF_BulletScoreRecover.cs" />
+     <Compile Include="Assets\prefab\additiveFunction\DragonSlayer\DragonSlayer.cs" />
+     <Compile Include="Assets\prefab\additiveFunction\DragonSlayer\FishEx_DragonSlayer.cs" />
+     <Compile Include="Assets\prefab\additiveFunction\FishGather\Ef_FishGather.cs" />
+     <Compile Include="Assets\prefab\additiveFunction\FishGather\FishGather.cs" />
+     <Compile Include="Assets\prefab\additiveFunction\GunLocker\Module_GunLocker.cs" />
+     <Compile Include="Assets\script\Backstage\Bs_0ParamSetting.cs" />
+     <Compile Include="Assets\script\Backstage\Bs_0ParamSettingSin.cs" />
+     <Compile Include="Assets\script\Backstage\Bs_1DecodeSetting.cs" />
+     <Compile Include="Assets\script\Backstage\Bs_2CheckBill.cs" />
+     <Compile Include="Assets\script\Backstage\Bs_3_1CodePrint.cs" />
+     <Compile Include="Assets\script\Backstage\Bs_3_2CodePrintSelect.cs" />
+     <Compile Include="Assets\script\Backstage\Bs_4Reboot.cs" />
+     <Compile Include="Assets\script\Backstage\Bs_5SystemSetting.cs" />
+     <Compile Include="Assets\script\Backstage\Bs_BoxDecoder.cs" />
+     <Compile Include="Assets\script\Backstage\Bs_Cursor.cs" />
+     <Compile Include="Assets\script\Backstage\Bs_Mainmenu.cs" />
+     <Compile Include="Assets\script\Backstage\CtrlLit_BackToMainMenu.cs" />
+     <Compile Include="Assets\script\Backstage\CtrlLit_DisableCursor.cs" />
+     <Compile Include="Assets\script\Backstage\Ctrl_InputNum.cs" />
+     <Compile Include="Assets\script\Backstage\Ctrl_MsgBox.cs" />
+     <Compile Include="Assets\script\Backstage\Ctrl_OptionNum.cs" />
+     <Compile Include="Assets\script\Backstage\Ctrl_OptionText.cs" />
+     <Compile Include="Assets\script\Backstage\CursorDimLocation.cs" />
+     <Compile Include="Assets\script\Backstage\Ui_lineIdTableIdLink.cs" />
+     <Compile Include="Assets\script\Backstage\Wnd_OptionMoveAble.cs" />
+     <Compile Include="Assets\script\Effect\Ef_AutoRotate.cs" />
+     <Compile Include="Assets\script\Effect\Ef_BubbleManager.cs" />
+     <Compile Include="Assets\script\Effect\Ef_CameraAspectSettor.cs" />
+     <Compile Include="Assets\script\Effect\Ef_CoinStack.cs" />
+     <Compile Include="Assets\script\Effect\Ef_DengAnimationFlash.cs" />
+     <Compile Include="Assets\script\Effect\Ef_DestroyDelay.cs" />
+     <Compile Include="Assets\script\Effect\Ef_DieCircleEmit.cs" />
+     <Compile Include="Assets\script\Effect\Ef_FishDieEffectAdditive.cs" />
+     <Compile Include="Assets\script\Effect\Ef_FishLocker.cs" />
+     <Compile Include="Assets\script\Effect\Ef_FishPlaySpecAniInterval.cs" />
+     <Compile Include="Assets\script\Effect\Ef_FreezeBombCountDown.cs" />
+     <Compile Include="Assets\script\Effect\Ef_HardwareFlashLight.cs" />
+     <Compile Include="Assets\script\Effect\Ef_HideCursor.cs" />
+     <Compile Include="Assets\script\Effect\Ef_KillBlueShark.cs" />
+     <Compile Include="Assets\script\Effect\Ef_PixelLocaltor.cs" />
+     <Compile Include="Assets\script\Effect\Ef_PlayAnimationWhenEatFish.cs" />
+     <Compile Include="Assets\script\Effect\Ef_PlayerKillLockFish.cs" />
+     <Compile Include="Assets\script\Effect\Ef_RandomMoveAtScreen.cs" />
+     <Compile Include="Assets\script\Effect\Ef_RendererFlash.cs" />
+     <Compile Include="Assets\script\Effect\Ef_SameTypeBombDie.cs" />
+     <Compile Include="Assets\script\Effect\Ef_ScoreUpMax.cs" />
+     <Compile Include="Assets\script\Effect\Ef_SetupWhenGenerate.cs" />
+     <Compile Include="Assets\script\Effect\Ef_ShakeBG.cs" />
+     <Compile Include="Assets\script\Effect\Ef_TransformScaler.cs" />
+     <Compile Include="Assets\script\Effect\Ef_WaterWave.cs" />
+     <Compile Include="Assets\script\Effect\Ef_WaterWave_pic.cs" />
+     <Compile Include="Assets\script\Effect\Ef_WebBoom.cs" />
+     <Compile Include="Assets\script\Effect\Ef_WebBubble.cs" />
+     <Compile Include="Assets\script\Effect\Ef_WebGenerate.cs" />
+     <Compile Include="Assets\script\Effect\Ef_tk2dAniSpecPlayInterval.cs" />
+     <Compile Include="Assets\script\Effect\Ef_tk2dAniSprFramePos.cs" />
+     <Compile Include="Assets\script\Effect\Ef_tk2dSprAlphaCurve.cs" />
+     <Compile Include="Assets\script\Effect\Ef_tk2dSprAlphaSin.cs" />
+     <Compile Include="Assets\script\Effect\Ef_tk2dSpriteSet.cs" />
+     <Compile Include="Assets\script\Effect\Ef_tk2dTextWithShadow.cs" />
+     <Compile Include="Assets\script\Effect\PopupDigitFishDie.cs" />
+     <Compile Include="Assets\script\FishAI\FishAI_Flock.cs" />
+     <Compile Include="Assets\script\FishAI\FishAI_Follow.cs" />
+     <Compile Include="Assets\script\FishAI\FishAI_FreeSwimSingle.cs" />
+     <Compile Include="Assets\script\FishAI\FishAI_XiaoChouSingle.cs" />
+     <Compile Include="Assets\script\FishAI\IFishAI.cs" />
+     <Compile Include="Assets\script\FishGenereate\ChangeFishGenerator.cs" />
+     <Compile Include="Assets\script\FishGenereate\FishDimenSetWhenEnterWorld.cs" />
+     <Compile Include="Assets\script\FishGenereate\FishGeneratConfig.cs" />
+     <Compile Include="Assets\script\FishGenereate\FishGeneratSetter.cs" />
+     <Compile Include="Assets\script\FishGenereate\FishGenerateWhenEnterWorld.cs" />
+     <Compile Include="Assets\script\FishGenereate\FishGenerator.cs" />
+     <Compile Include="Assets\script\FishGenereate\FishGeneratorPlugin_Freezebomb.cs" />
+     <Compile Include="Assets\script\Language\CusorDimEx_LanguageAutoSelect.cs" />
+     <Compile Include="Assets\script\Language\GameObjectEx_LanguageAutoSelect.cs" />
+     <Compile Include="Assets\script\Language\LanguageItem.cs" />
+     <Compile Include="Assets\script\Language\LocalPos_LanguageAutoSelect.cs" />
+     <Compile Include="Assets\script\Language\LocalScale_LanguageAutoSelect.cs" />
+     <Compile Include="Assets\script\Language\SliceSpriteDim_LanguageAutoSelect.cs" />
+     <Compile Include="Assets\script\Language\SpriteID_LanguageAutoSelect.cs" />
+     <Compile Include="Assets\script\Language\TextMeshEx_LanguageAutoSelect.cs" />
+     <Compile Include="Assets\script\Lite\ColorSet.cs" />
+     <Compile Include="Assets\script\Lite\SplitWhenInstance.cs" />
+     <Compile Include="Assets\script\Lite\StringSet.cs" />
+     <Compile Include="Assets\script\Lite\WebDatas.cs" />
+     <Compile Include="Assets\script\ScenePrelude\ScenePrelude.cs" />
+     <Compile Include="Assets\script\ScenePrelude\ScenePreludeEx_Freeezebomb.cs" />
+     <Compile Include="Assets\script\ScenePrelude\ScenePreludeManager.cs" />
+     <Compile Include="Assets\script\ScenePrelude\ScenePrelude_BigFishLineLR.cs" />
+     <Compile Include="Assets\script\ScenePrelude\ScenePrelude_FlowerEmit.cs" />
+     <Compile Include="Assets\script\ScenePrelude\ScenePrelude_FlowerEmitCircle.cs" />
+     <Compile Include="Assets\script\ScenePrelude\ScenePrelude_Road.cs" />
+     <Compile Include="Assets\script\ScenePrelude\ScenePrelude_SharkEmitLR.cs" />
+     <Compile Include="Assets\script\ScenePrelude\ScenePrelude_Transition.cs" />
+     <Compile Include="Assets\script\ScenePrelude\ScenePrelude_TransitionX.cs" />
+     <Compile Include="Assets\script\ScenePrelude\ScenePrelude_TwoCircleRotate.cs" />
+     <Compile Include="Assets\script\ScenePrelude\ScenePrelude_TwoCircleRotateSin.cs" />
+     <Compile Include="Assets\script\ScenePrelude\ScenePrelude_UpDownFlow.cs" />
+     <Compile Include="Assets\script\additive\GC_WhenFinishChangedScene.cs" />
+     <Compile Include="Assets\script\additive\GameTestOption.cs" />
+     <Compile Include="Assets\script\additive\GameVersionView.cs" />
+     <Compile Include="Assets\script\core\BackStageSetting.cs" />
+     <Compile Include="Assets\script\core\BackstageMain.cs" />
+     <Compile Include="Assets\script\core\Bullet.cs" />
+     <Compile Include="Assets\script\core\CoinStack.cs" />
+     <Compile Include="Assets\script\core\CoinStackImm.cs" />
+     <Compile Include="Assets\script\core\CoinStackManager.cs" />
+     <Compile Include="Assets\script\core\CongfigSetter.cs" />
+     <Compile Include="Assets\script\core\Defineds.cs" />
+     <Compile Include="Assets\script\core\DestroyWhenSwimmerOut.cs" />
+     <Compile Include="Assets\script\core\Fish.cs" />
+     <Compile Include="Assets\script\core\FishEmitter_Flock.cs" />
+     <Compile Include="Assets\script\core\FishEmitter_Queue.cs" />
+     <Compile Include="Assets\script\core\FishEx_DepthSet.cs" />
+     <Compile Include="Assets\script\core\FishEx_FishEatter.cs" />
+     <Compile Include="Assets\script\core\FishEx_LockPos.cs" />
+     <Compile Include="Assets\script\core\FishEx_OddsMulti.cs" />
+     <Compile Include="Assets\script\core\FishEx_RndPosSTB.cs" />
+     <Compile Include="Assets\script\core\FishOdd_FullScreen.cs" />
+     <Compile Include="Assets\script\core\FlyingCoin.cs" />
+     <Compile Include="Assets\script\core\FlyingCoinManager.cs" />
+     <Compile Include="Assets\script\core\FreezeBombRecover.cs" />
+     <Compile Include="Assets\script\core\GCInterval.cs" />
+     <Compile Include="Assets\script\core\GainAdjuster.cs" />
+     <Compile Include="Assets\script\core\GameDataViewer.cs" />
+     <Compile Include="Assets\script\core\GameLogo.cs" />
+     <Compile Include="Assets\script\core\GameMain.cs" />
+     <Compile Include="Assets\script\core\GameObjectSet.cs" />
+     <Compile Include="Assets\script\core\GameOdds.cs" />
+     <Compile Include="Assets\script\core\GameStart.cs" />
+     <Compile Include="Assets\script\core\GameStartOneScreen.cs" />
+     <Compile Include="Assets\script\core\Gun.cs" />
+     <Compile Include="Assets\script\core\GunLiziGettor.cs" />
+     <Compile Include="Assets\script\core\GunLiziGettorMain.cs" />
+     <Compile Include="Assets\script\core\HF_Decoder.cs" />
+     <Compile Include="Assets\script\core\HitProcessor.cs" />
+     <Compile Include="Assets\script\core\Module_Bullet.cs" />
+     <Compile Include="Assets\script\core\Player.cs" />
+     <Compile Include="Assets\script\core\PlayerCreator.cs" />
+     <Compile Include="Assets\script\core\Player_FishLocker.cs" />
+     <Compile Include="Assets\script\core\RandomFishOdds.cs" />
+     <Compile Include="Assets\script\core\RandomOddsNum.cs" />
+     <Compile Include="Assets\script\core\SceneBGManager.cs" />
+     <Compile Include="Assets\script\core\SoundManager.cs" />
+     <Compile Include="Assets\script\core\Swimmer.cs" />
+     <Compile Include="Assets\script\core\WebNormal.cs" />
+     <Compile Include="Assets\script\temp\Test_SpeedChanged.cs" />
+     <Compile Include="Assets\script\temp\TranCreater.cs" />
+     <Compile Include="Assets\script\temp\TranTo384Adapter.cs" />
+     <Compile Include="Assets\script\test\Test_CoroutineCallStackDepth.cs" />
+     <Compile Include="Assets\script\test\Test_CreateDestroyObject.cs" />
+     <Compile Include="Assets\script\test\Test_CullPerformence.cs" />
+     <Compile Include="Assets\script\test\Test_DelegateInvokeTimes.cs" />
+     <Compile Include="Assets\script\test\Test_FishInstanceAndDestroy.cs" />
+     <Compile Include="Assets\script\test\Test_InstancePerform.cs" />
+     <Compile Include="Assets\script\test\Test_LogFishGenerator.cs" />
+     <Compile Include="Assets\script\test\Test_MemoryLeak.cs" />
+     <Compile Include="Assets\script\test\Test_NumGunFire.cs" />
+     <Compile Include="Assets\script\test\Test_OutputEula.cs" />
+     <Compile Include="Assets\script\test\Test_PlayerAutoLockFish.cs" />
+     <Compile Include="Assets\script\test\Test_Probability.cs" />
+     <Compile Include="Assets\script\test\Test_Resolution_CameraAspect.cs" />
+     <Compile Include="Assets\script\test\Test_TransformChild.cs" />
+     <Compile Include="Assets\script\test\Test_ViewCurrentGainRatio.cs" />
+     <Compile Include="Assets\script\test\Test_ViewFishNum.cs" />
+     <Compile Include="Assets\script\test\Test_WriteDataToDisk.cs" />
+     <Compile Include="Assets\script\test\Test_reboot.cs" />
+     <Compile Include="Assets\script\test\Test_setActive.cs" />
+     <Compile Include="Assets\script\test\Tester_DatasOverload.cs" />
+     <Compile Include="Assets\script\test\test_TempChangeLanguage.cs" />
+     <Compile Include="Assets\script\test\test_invokeJava.cs" />
+     <Compile Include="Assets\script\ui\UI_VolumeBar.cs" />
+     <Compile Include="Assets\script\ui\UI_VolumeViewer.cs" />
+     <Compile Include="Assets\temp\tempAddScore.cs" />
+     <None Include="Assets\StreamingAssets\mmiap\02\vertical\purchasedialog.xml" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\res\values\dimens.xml" />
+     <None Include="Assets\_Custom_Mobile\newMainUI\¦++¦\ui_fish_num_2+°¦O.txt" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\CutoutVertexColor.shader" />
+     <None Include="Assets\StreamingAssets\mmiap\01\vertical\sucresultdialog.xml" />
+     <None Include="Assets\StreamingAssets\mmiap\03\horizontal\purchasedialog.xml" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\LitCutoutVertexColor.shader" />
+     <None Include="Assets\_Custom_Mobile\newMainUI\++¦¿-²++\ui_fish_num_7+°¦O.txt" />
+     <None Include="Assets\TK2DROOT\tk2dUI\Shaders\DepthMaskSolid.shader" />
+     <None Include="Assets\prefab\font\Yahei50\NeedFonts.txt" />
+     <None Include="Assets\shader\UI_SpriteMask.shader" />
+     <None Include="Assets\StreamingAssets\mmiap\splash\horizontal\splashdialog.xml" />
+     <None Include="Assets\shader\UI_MaskAllSprite.shader" />
+     <None Include="Assets\StreamingAssets\mmiap\01\horizontal\progressdialog.xml" />
+     <None Include="Assets\StreamingAssets\mmiap\01\vertical\purchasedialog.xml" />
+     <None Include="Assets\TK2DROOT\tk2d\Goodies\TexturePacker\Exporter\2dtoolkit\exporter.xml" />
+     <None Include="Assets\external\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\Plugins\Android\res\layout\main.xml" />
+     <None Include="Assets\TK2DROOT\tk2dUI\Shaders\DepthMask.shader" />
+     <None Include="Assets\StreamingAssets\mmiap\01\vertical\failresultdialog.xml" />
+     <None Include="Assets\StreamingAssets\mmiap\01\horizontal\failresultdialog.xml" />
+     <None Include="Assets\TK2DROOT\tk2d_demo\Credits.txt" />
+     <None Include="Assets\_Custom_Mobile\prefab\fonts\font_yahei\font_yahei.fnt" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\resources\BlendVertexColor.shader" />
+     <None Include="Assets\prefab\font\scence_weaponDigit\scence_weaponDigit.fnt" />
+     <None Include="Assets\StreamingAssets\mmiap\03\horizontal\sucresultdialog.xml" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\PremulVertexColor.shader" />
+     <None Include="Assets\prefab\font\scence_highCreditDigit\scence_highCreditDigit.fnt" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\SolidVertexColor.shader" />
+     <None Include="Assets\shader\Nemo2D_Wave.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\LitPremulVertexColor.shader" />
+     <None Include="Assets\StreamingAssets\mmiap\03\vertical\sucresultdialog.xml" />
+     <None Include="Assets\TK2DROOT\tk2dUI_demo\Assets\Dark\Fonts\Nunito24.fnt" />
+     <None Include="Assets\prefab\font\bs_gunLayoutSelect\bs_gunLayoutSelect.fnt" />
+     <None Include="Assets\_Custom_Mobile\newMainUI\+¦++\ui_fish_num_1.fnt" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\LitSolidVertexColor.shader" />
+     <None Include="Assets\document\+-¦¦¦+¦+.txt" />
+     <None Include="Assets\prefab\font\scence_goldPileDigit\scence_goldPileDigit.fnt" />
+     <None Include="Assets\StreamingAssets\mmiap\02\horizontal\sucresultdialog.xml" />
+     <None Include="Assets\Plugins\Android\res\values\styles.xml" />
+     <None Include="Assets\StreamingAssets\mmiap\02\vertical\failresultdialog.xml" />
+     <None Include="Assets\StreamingAssets\mmiap\02\vertical\progressdialog.xml" />
+     <None Include="Assets\_Custom_Mobile\newMainUI\¦++-+¦+°-²++\ui_fish_num_6.fnt" />
+     <None Include="Assets\StreamingAssets\mmiap\02\vertical\sucresultdialog.xml" />
+     <None Include="Assets\Plugins\Android\res\values\strings.xml" />
+     <None Include="Assets\prefab\font\scence_bulletDigit\scence_bulletDigit.fnt" />
+     <None Include="Assets\prefab\font\bs_inputBoxDigit\bs_inputboxDigit.fnt" />
+     <None Include="Assets\prefab\font\scence_creditDieFish\scence_creditDieFish.fnt" />
+     <None Include="Assets\StreamingAssets\mmiap\02\horizontal\purchasedialog.xml" />
+     <None Include="Assets\StreamingAssets\mmiap\03\vertical\failresultdialog.xml" />
+     <None Include="Assets\StreamingAssets\mmiap\03\vertical\progressdialog.xml" />
+     <None Include="Assets\StreamingAssets\mmiap\03\vertical\savingdialog.xml" />
+     <None Include="Assets\StreamingAssets\mmiap\03\horizontal\savingdialog.xml" />
+     <None Include="Assets\StreamingAssets\mmiap\03\horizontal\failresultdialog.xml" />
+     <None Include="Assets\prefab\font\Yahei50\YaHei50.fnt" />
+     <None Include="Assets\shader\UI_SpriteUnderMask.shader" />
+     <None Include="Assets\_Custom_Mobile\newMainUI\¦º-¦+²+¦¦--²++\ui_fish_num_7.fnt" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\LitBlendVertexColor.shader" />
+     <None Include="Assets\prefab\font\Yahei50_unblod\NeedFonts.txt" />
+     <None Include="Assets\Plugins\Android\res\values-large\dimens.xml" />
+     <None Include="Assets\StreamingAssets\mmiap\01\vertical\progressdialog.xml" />
+     <None Include="Assets\_Custom_Mobile\newMainUI\-°-t+¦+°¦¦+¦-¦\¦+-¦+S--¦-+=¦--²++\ui_fish_num_2.fnt" />
+     <None Include="Assets\StreamingAssets\mmiap\01\horizontal\savingdialog.xml" />
+     <None Include="Assets\shader\ChangeSceneBG.shader" />
+     <None Include="Assets\TK2DROOT\tk2d_demo\demobmfont\test.fnt" />
+     <None Include="Assets\StreamingAssets\mmiap\02\horizontal\progressdialog.xml" />
+     <None Include="Assets\shader\ChangeSceneBGMask.shader" />
+     <None Include="Assets\StreamingAssets\mmiap\03\vertical\purchasedialog.xml" />
+     <None Include="Assets\_Custom_Mobile\newMainUI\¦º-¦+²+¦¦--²++\ui_fish_num_7+°¦O.txt" />
+     <None Include="Assets\StreamingAssets\mmiap\01\horizontal\purchasedialog.xml" />
+     <None Include="Assets\TK2DROOT\tk2dUI_demo\Assets\Font\OldSansBlack\OldSansBlack.fnt" />
+     <None Include="Assets\_Custom_Mobile\newMainUI\+¦++\ui_fish_num_1+°¦O.txt" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\Blend2TexVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2dUI_demo\Assets\Dark\Fonts\Nunito16.fnt" />
+     <None Include="Assets\TK2DROOT\tk2dUI_demo\Assets\Dark\Fonts\Nunito32.fnt" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\goodies\PackedTextMesh.shader" />
+     <None Include="Assets\Plugins\Android\res\menu\activity_main.xml" />
+     <None Include="Assets\StreamingAssets\mmiap\03\horizontal\progressdialog.xml" />
+     <None Include="Assets\_Custom_Mobile\newMainUI\¦++-+¦+°-²++\ui_fish_num_6+°¦O.txt" />
+     <None Include="Assets\TK2DROOT\tk2d\Editor\EditorUtility.shader" />
+     <None Include="Assets\prefab\font\Yahei50_unblod\Yahei50_unblod.fnt" />
+     <None Include="Assets\StreamingAssets\mmiap\02\horizontal\failresultdialog.xml" />
+     <None Include="Assets\StreamingAssets\mmiap\02\vertical\savingdialog.xml" />
+     <None Include="Assets\_Custom_Mobile\newMainUI\¦++¦\ui_fish_num_2.fnt" />
+     <None Include="Assets\StreamingAssets\mmiap\splash\vertical\splashdialog.xml" />
+     <None Include="Assets\StreamingAssets\mmiap\01\horizontal\sucresultdialog.xml" />
+     <None Include="Assets\prefab\font\scence_creditBoardDigit\scence_creditBoardDigit.fnt" />
+     <None Include="Assets\StreamingAssets\mmiap\01\vertical\savingdialog.xml" />
+     <None Include="Assets\_Custom_Mobile\newMainUI\+++±+¦¦+-²++\ui_fish_num_5+°¦O.txt" />
+     <None Include="Assets\shader\Nemo2D_Add.shader" />
+     <None Include="Assets\shader\Nemo2D_LineGlod.shader" />
+     <None Include="Assets\StreamingAssets\mmiap\02\horizontal\savingdialog.xml" />
+     <None Include="Assets\_Custom_Mobile\newMainUI\-°-t+¦+°¦¦+¦-¦\¦+-¦+S--¦-+=¦--²++\ui_fish_num_6+°¦O.txt" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\AdditiveVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2d_demo\democameradata\source\democamerafont.fnt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>E:/Programs/Unity4.6.9/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.9/Standalone/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Data">
+ <HintPath>E:/Projects/Casual/Fishing/Fishing/Assets/Plugins/Mono.Data.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Data.Sqlite">
+ <HintPath>E:/Projects/Casual/Fishing/Fishing/Assets/Plugins/Mono.Data.Sqlite.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Data.SqliteClient">
+ <HintPath>E:/Projects/Casual/Fishing/Fishing/Assets/Plugins/Mono.Data.SqliteClient.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Configuration">
+ <HintPath>E:/Projects/Casual/Fishing/Fishing/Assets/Plugins/System.Configuration.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data">
+ <HintPath>E:/Projects/Casual/Fishing/Fishing/Assets/Plugins/System.Data.dll</HintPath>
+ </Reference>
+ <Reference Include="System.EnterpriseServices">
+ <HintPath>E:/Projects/Casual/Fishing/Fishing/Assets/Plugins/System.EnterpriseServices.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security">
+ <HintPath>E:/Projects/Casual/Fishing/Fishing/Assets/Plugins/System.Security.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
